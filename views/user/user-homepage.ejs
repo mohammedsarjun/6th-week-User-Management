@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="CSS/user-homepage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <div class="left-side-header">
+            <img class="hamburgur" src="user-homepage-collection/icons/hamburger-menu.png" alt="hello">
+            <img class="youtube-logo" src="user-homepage-collection/logo/youtube-logo.png" alt="">
+        </div>
+        <div class="center-header">
+            <input type="text" class="search-box" placeholder="Search">
+            <button class="search-button"><img src="user-homepage-collection/icons/search-btn.svg" alt=""></button>
+            <button class="voice-search"><img src="user-homepage-collection/icons/voice-search-icon.svg" alt="" class="voice-search-image"></button>
+        </div>
+        <div class="right-side-header">
+            <button class="upload"><img src="user-homepage-collection/icons/upload.svg" alt=""></button>
+            <button class="apps"><img src="user-homepage-collection/icons/youtube-apps.svg" alt=""></button>
+            <div class="notify">
+        <button class="notifications"><img src="user-homepage-collection/icons/notifications.svg" alt=""></button>
+        <div class="notify-para"><p>3</p></div>
+    </div>
+        <img class="pf-logo" src="user-homepage-collection/logo/user-logo.png" alt="">
+    </div>
+<!--log out box abosolute-->
+<div class="profile-box flex-column">
+<img src="user-homepage-collection/logo/user-logo.png" alt="">
+<%if(userName){%><p><%=userName%></p><%}%>
+<div class="logout-btn mt-3 d-flex justify-content-end me-3">
+    <a href="/logout" class="text-decoration-none"><button class="btn btn-danger d-block ">LOG OUT</button></a>
+</div>
+
+</div>
+    </section>
+    <section class="homepage">
+        <div class="side-menu">
+            <div class="home-button">
+            <img class="home-sidebar" src="user-homepage-collection/icons/home-sidebar.svg" alt="">
+            <p>Home</p>
+        </div>
+        <div class="explore-button">
+            <img  class="explore-sidebar" src="user-homepage-collection/icons/explore-sidebar.svg" alt="">
+            <p>Explore</p>
+        </div>
+        <div class="subscription-button">
+            <img src="user-homepage-collection/icons/subscriptions-sidebar.svg" alt="">
+            <p>Subscriptions</p>
+        </div>
+        <div class="originals-button">
+            <img src="user-homepage-collection/icons/originals-sidebar.svg" alt="">
+            <p>Originals</p>
+        </div>
+        <div class="yt-music-button">
+            <img src="user-homepage-collection/icons/youtube-music-sidebar.svg" alt="">
+            <p>Youtube Music</p>
+        </div>
+        <div class="library-button">
+            <img src="user-homepage-collection/icons/library-sidebar.svg" alt="">
+            <p>Library</p>
+        </div>
+        </div>
+        <div class="feeds">
+               <div class="feed-content">
+                <div class="feed mb">
+                    <img class="thumbnail" src="user-homepage-collection/thumbnail and titles/thumbnail/THUMBNAIL-1.jpg" alt="">
+                    <div class="vid-description">
+                        <div class="ch-logo-div">
+                        <img class="ch-logo" src="user-homepage-collection/channel-logo/download.png" alt="">
+                    </div>
+                    <div class="title-des-div">
+                    <p class="ch-title">HTML & CSS Full Course - Beginner to Pro</p>
+                    <p class="ch-name">SuperSimpleDev</p>
+                    <p class="views">11M views 	&middot; 6 months ago</p>
+                </div>
+                </div>
+                    
+                </div>
+                <div class="feed mb">
+                    <img class="thumbnail" src="user-homepage-collection/thumbnail and titles/thumbnail/THUMBNAIL-2.jpg" alt="">
+                    <div class="vid-description">
+                        <div class="ch-logo-div">
+                        <img class="ch-logo" src="user-homepage-collection/channel-logo/download.jpg" alt="">
+                    </div>
+                    <div class="title-des-div">
+                    <p class="ch-title">MKBHD Exposed? 🤯- Wallpaper for Rs.2,000/- 💲| Mr.Beast Cancelled 🔻</p>
+                    <p class="ch-name">A2D Channel</p>
+                    <p class="views">42k views 	&middot; 1 hour ago</p>
+                </div>
+                </div>
+                </div>
+                <div class="feed mb">
+                    <img class="thumbnail" src="user-homepage-collection/thumbnail and titles/thumbnail/THUMBNAIL-3.jpg" alt="">
+                    <div class="vid-description">
+                        <div class="ch-logo-div">
+                        <img class="ch-logo" src="user-homepage-collection/channel-logo/download (1).png" alt="">
+                    </div>
+                    <div class="title-des-div">
+                    <p class="ch-title">The Greatest of All Time - Bloopers | Thalapathy Vijay | Venkat Prabhu | AGS Entertainment</p>
+                    <p class="ch-name">AGS Entertainment</p>
+                    <p class="views">385K views	&middot; 3 hours ago</p>
+                </div>
+                </div>
+                    
+                </div>
+                <div class="feed mb">
+                    <img class="thumbnail" src="user-homepage-collection/thumbnail and titles/thumbnail/THUMBNAIL-4.jpg" alt="">
+                    <div class="vid-description">
+                        <div class="ch-logo-div">
+                        <img class="ch-logo" src="user-homepage-collection/channel-logo/logo4.png" alt="">
+                    </div>
+                    <div class="title-des-div">
+                    <p class="ch-title">Ey Inge Paaru - Velai Illa Pattadhaari Official Full Song
+                    </p>
+                    <p class="ch-name">Wunderbar Films</p>
+                    <p class="views">1M views	&middot; 10 years ago</p>
+                </div>
+                </div>
+                    
+                </div>
+                <div class="feed mb">
+                    <img class="thumbnail" src="user-homepage-collection/thumbnail and titles/thumbnail/THUMBNAIL-5.jpg" alt="">
+                    <div class="vid-description">
+                        <div class="ch-logo-div">
+                        <img class="ch-logo" src="user-homepage-collection/channel-logo/download (2).png" alt="">
+                    </div>
+                    <div class="title-des-div">
+                    <p class="ch-title">The Reason Your Degree Won't Get You Hired
+                    </p>
+                    <p class="ch-name">Brototype Tamil</p>
+                    <p class="views">6.6k views	&middot; 6 days ago</p>
+                </div>
+                </div>
+                </div>
+                <div class="feed mb">
+                    <img class="thumbnail" src="user-homepage-collection/thumbnail and titles/thumbnail/THUMBNAIL-6.jpg" alt="">
+                    <div class="vid-description">
+                        <div class="ch-logo-div">
+                        <img class="ch-logo" src="user-homepage-collection/channel-logo/download (1).jpg" alt="">
+                    </div>
+                    <div class="title-des-div">
+                    <p class="ch-title">Must ask questions to identify the narcissist | The Book Show ft. RJ Ananthi
+                    </p>
+                    <p class="ch-name">The Book Show</p>
+                    <p class="views">32k views	&middot; 9 days ago</p>
+                </div>
+                </div>
+                </div>
+                <div class="feed mb">
+                    <img class="thumbnail" src="user-homepage-collection/thumbnail and titles/thumbnail/THUMBNAIL-7.jpg" alt="">
+                    <div class="vid-description">
+                        <div class="ch-logo-div">
+                        <img class="ch-logo" src="user-homepage-collection/channel-logo/logo7.jpg" alt="">
+                    </div>
+                    <div class="title-des-div">
+                    <p class="ch-title">10 Security Rules every Developer must know !! | Tamil
+                    </p>
+                    <p class="ch-name">Hareesh Rajendran</p>
+                    <p class="views">1.4K views	&middot; 14 hours ago</p>
+                </div>
+                </div>
+                </div>
+                <div class="feed mb">
+                    <img class="thumbnail" src="user-homepage-collection/thumbnail and titles/thumbnail/THUMBNAIL-8.jpg" alt="">
+                    <div class="vid-description">
+                        <div class="ch-logo-div">
+                        <img class="ch-logo" src="user-homepage-collection/channel-logo/logo8.jpg" alt="">
+                    </div>
+                    <div class="title-des-div">
+                    <p class="ch-title">🥵 Enthiran Analysis 🤖🥳 | Rajinikanth | Aishwarya | Shankar | EFX Reacts
+                    </p>
+                    <p class="ch-name">Expert Fx</p>
+                    <p class="views">44K views	&middot; 14 hours ago</p>
+                </div>
+                </div>
+                </div>
+                <div class="feed">
+                    <img class="thumbnail" src="user-homepage-collection/thumbnail and titles/thumbnail/THUMBNAIL9.jpg" alt="">
+                    <div class="vid-description">
+                        <div class="ch-logo-div">
+                        <img class="ch-logo" src="user-homepage-collection/channel-logo/download (3).png" alt="">
+                    </div>
+                    <div class="title-des-div">
+                    <p class="ch-title">செவ்வாயில் மங்கள்யான் கண்டுபுடித்த மர்மங்கள் - Mangalyaan Findings
+
+                    </p>
+                    <p class="ch-name">Un Signed
+
+                    </p>
+                    <p class="views">4k views	&middot; 1 hours ago</p>
+                </div>
+                </div>
+                </div>
+                <div class="feed">
+                    <img class="thumbnail" src="user-homepage-collection/thumbnail and titles/thumbnail/THUMBNAIL 10.jpg" alt="">
+                    <div class="vid-description">
+                        <div class="ch-logo-div">
+                        <img class="ch-logo" src="user-homepage-collection/channel-logo/logo10.jpg" alt="">
+                    </div>
+                    <div class="title-des-div">
+                    <p class="ch-title">🤯 கடவுள் பிரபஞ்சத்தை படைத்தாரா? 🤔 Stephen Hawking vs Michio Kaku | Mr.GK
+
+                    </p>
+                    <p class="ch-name">Mr.GK
+                    </p>
+                    <p class="views">192k views	&middot; 19 hours ago</p>
+                </div>
+                </div>
+                </div>
+
+                <div class="feed">
+                    <img class="thumbnail" src="user-homepage-collection/thumbnail and titles/thumbnail/THUMBNAIL-11.jpg" alt="">
+                    <div class="vid-description">
+                        <div class="ch-logo-div">
+                        <img class="ch-logo" src="user-homepage-collection/channel-logo/logo11.png" alt="">
+                    </div>
+                    <div class="title-des-div">
+                    <p class="ch-title">Harvard CS50 – Full Computer Science University Course
+
+                    </p>
+                    <p class="ch-name">freeCodeCamp.org
+
+                    </p>
+                    <p class="views">11M views	&middot; 1 years ago
+                    </p>
+                </div>
+                </div>
+                </div>
+
+                <div class="feed">
+                    <img class="thumbnail" src="user-homepage-collection/thumbnail and titles/thumbnail/THUMBNAIL-12.jpg" alt="">
+                    <div class="vid-description">
+                        <div class="ch-logo-div">
+                        <img class="ch-logo" src="user-homepage-collection/channel-logo/logo12.jpg" alt="">
+                    </div>
+                    <div class="title-des-div">
+                    <p class="ch-title">Ilaiyaraaja x Stranger Things | Music Video | Netflix India
+
+                    </p>
+                    <p class="ch-name">Netflix India
+
+                    </p>
+                    <p class="views">723K views	&middot; 2 years ago
+                    </p>
+                </div>
+                </div>
+                </div>
+                
+               </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="SCRIPT/homepage.js"></script>
+</body>
+</html>

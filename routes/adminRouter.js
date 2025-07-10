@@ -1,0 +1,11 @@
+const express=require('express')
+const router=express.Router()
+const adminController=require("../Controller/adminController")
+router.post("/login",adminController.adminLogin)
+router.post("/create-user",(adminController.createUser))
+router.get("/log-out",adminController.adminLogout)
+router.get("/userDB",adminController.readUser)
+router.delete("/deleteUser",adminController.deleteUser)
+router.put("/update-user",adminController.updateUser)
+router.get("/search-user",adminController.searchUser)
+module.exports=router

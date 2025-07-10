@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.validate-container{
+    
+    background: url("../Validating-pages-backgroud/Gradient-Background.jpg");
+}
+
+.validate-box{
+    width: 600px;
+    background: rgba( 255, 255, 255, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.validate-heading{
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    color: black;
+}
+
+.error-mes{
+    color: red;
+    font-size: 12px;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    margin-bottom: 0 !important;
+}
